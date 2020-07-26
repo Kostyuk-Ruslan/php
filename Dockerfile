@@ -25,4 +25,4 @@ RUN apt-get update && apt-get install -y  \
 WORKDIR /var/www
 EXPOSE 9000
 
-CMD ["php-fpm" "-F"]
+CMD ["php-fpm7.4" "-F"]
